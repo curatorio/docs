@@ -10,6 +10,8 @@
     -webkit-font-smoothing: antialiased;
     text-transform: lowercase;
     color: white; }
+    .Navbar .Navbar__brand:hover {
+      text-decoration: none; }
   .Navbar .navbar-collapse {
     float: right; }
     .Navbar .navbar-collapse .navbar-nav {
