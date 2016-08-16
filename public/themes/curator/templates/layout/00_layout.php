@@ -80,5 +80,45 @@
 
     } ?>
 
+
+<div class="footer-spacer"></div>
+<div class="footer-container">
+    <footer class="content-info container" role="contentinfo">
+        <div class="row">
+            <div class="col-sm-4 footer-nav">
+               <nav>
+                    <ul id="menu-footer-menu" class=""><li class="active menu-home"><a href="http://curator.sbdigi.com/">Home</a></li>
+                    <li class="menu-about"><a href="http://curator.sbdigi.com/about/">About</a></li>
+                    <li class="menu-showcase"><a href="http://curator.sbdigi.com/showcase/">Showcase</a></li>
+                    <li class="menu-pricing"><a href="http://curator.sbdigi.com/pricing/">Pricing</a></li>
+                    <li class="menu-contact"><a href="http://curator.sbdigi.com/contact/">Contact</a></li>
+                    </ul>
+               </nav>
+            </div>
+            <div class="col-sm-4 footer-social">
+                <nav>
+                    <ul>
+                        <li><a href="https://twitter.com/curator_io" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://www.facebook.com/curatorappio" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://instagram.com/curator_io" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-4 footer-nav">
+                <nav>
+                    <ul>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li><a href="/terms">Terms</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 footer-copy">
+                    <span class="copy">© 2016 <a href="http://sandboxdigital.com.au" target="_blank">Sandbox Digital</a></span></li>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>

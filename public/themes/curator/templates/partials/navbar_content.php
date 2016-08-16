@@ -7,5 +7,19 @@
         <input type="search" id="tipue_search_input" class="Search__field" placeholder="Search..." autocomplete="on" results=25 autosave=text_search>
     </div>
 <?php
-
 } ?>
+
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav navbar-right">
+      	<ul id="menu-primary-navigation" class="nav navbar-nav"><li class="active menu-home"><a href="http://curator.sbdigi.com/">Home</a></li>
+		<li class="menu-features"><a href="http://curator.sbdigi.com/about/">Features</a></li>
+		<li class="menu-examples"><a href="http://curator.sbdigi.com/showcase/">Examples</a></li>
+		<li class="menu-pricing"><a href="http://curator.sbdigi.com/pricing/">Pricing</a></li>
+		<li class="menu-github"><a href="https://github.com/curatorio">Github</a></li>
+		<li class="menu-clients"><a href="http://curator.sbdigi.com/clients/">Clients</a></li>
+		<li class="menu-test-text-template"><a href="http://curator.sbdigi.com/test-text-template/">Test – text template</a></li>
+		</ul>                    
+		<li class="request-demo"><a href="#" class="btn btn-default navbar-btn">Request Demo</a></li>
+        <li><a href="http://admin.curator.io/auth/register" class="btn btn-default navbar-btn">Try for free</a></li>
+    </ul>
+</div><!-- /.navbar-collapse -->
