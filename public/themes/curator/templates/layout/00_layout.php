@@ -87,11 +87,11 @@
         <div class="row">
             <div class="col-sm-4 footer-nav">
                <nav>
-                    <ul id="menu-footer-menu" class=""><li class="active menu-home"><a href="http://curator.sbdigi.com/">Home</a></li>
-                    <li class="menu-about"><a href="http://curator.sbdigi.com/about/">About</a></li>
-                    <li class="menu-showcase"><a href="http://curator.sbdigi.com/showcase/">Showcase</a></li>
-                    <li class="menu-pricing"><a href="http://curator.sbdigi.com/pricing/">Pricing</a></li>
-                    <li class="menu-contact"><a href="http://curator.sbdigi.com/contact/">Contact</a></li>
+                    <ul id="menu-footer-menu" class=""><li class="active menu-home"><a href="<?php echo MAIN_URL ?>/">Home</a></li>
+                    <li class="menu-about"><a href="<?php echo MAIN_URL ?>/about/">About</a></li>
+                    <li class="menu-showcase"><a href="<?php echo MAIN_URL ?>/showcase/">Showcase</a></li>
+                    <li class="menu-pricing"><a href="<?php echo MAIN_URL ?>/pricing/">Pricing</a></li>
+                    <li class="menu-contact"><a href="<?php echo MAIN_URL ?>/contact/">Contact</a></li>
                     </ul>
                </nav>
             </div>
@@ -107,8 +107,8 @@
             <div class="col-sm-4 footer-nav">
                 <nav>
                     <ul>
-                        <li><a href="/privacy">Privacy Policy</a></li>
-                        <li><a href="/terms">Terms</a></li>
+                        <li><a href="<?php echo MAIN_URL ?>/privacy">Privacy Policy</a></li>
+                        <li><a href="<?php echo MAIN_URL ?>/terms">Terms</a></li>
                     </ul>
                 </nav>
             </div>

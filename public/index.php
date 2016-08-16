@@ -63,6 +63,8 @@ software, even if advised of the possibility of such damage.
 
 */
 
+include 'settings.php';
+
 if (php_sapi_name() === 'cli-server') {
     // This file allows us to emulate Apache's "mod_rewrite"
     // functionality from the built-in PHP web server.
