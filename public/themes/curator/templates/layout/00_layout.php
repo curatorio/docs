@@ -36,8 +36,36 @@
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <?php if($_SERVER["SERVER_NAME"] == 'curator.io') {?>
+        <!-- Start of Woopra Code -->
+        <script>
+            (function(){
+                var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+            })("woopra");
+
+            woopra.config({
+                domain: 'curator.io'
+            });
+            woopra.track();
+        </script>
+        <!-- End of Woopra Code -->
+
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-43032617-1', 'auto', {'allowLinker': true});
+            ga('require', 'linker');
+            ga('linker:autoLink', ['admin.curator.io'] );
+            ga('send', 'pageview');
+        </script>
+    <?php }    ?>
 </head>
 <body class="<?= $params['html']['float'] ? 'with-float' : ''; ?>">
+
+
     <?= $this->section('content'); ?>
 
     <?php
@@ -80,5 +108,45 @@
 
     } ?>
 
+
+<div class="footer-spacer"></div>
+<div class="footer-container">
+    <footer class="content-info container" role="contentinfo">
+        <div class="row">
+            <div class="col-sm-4 footer-nav">
+               <nav>
+                    <ul id="menu-footer-menu" class=""><li class="active menu-home"><a href="<?php echo MAIN_URL ?>/">Home</a></li>
+                    <li class="menu-about"><a href="<?php echo MAIN_URL ?>/about/">About</a></li>
+                    <li class="menu-showcase"><a href="<?php echo MAIN_URL ?>/showcase/">Showcase</a></li>
+                    <li class="menu-pricing"><a href="<?php echo MAIN_URL ?>/pricing/">Pricing</a></li>
+                    <li class="menu-contact"><a href="<?php echo MAIN_URL ?>/contact/">Contact</a></li>
+                    </ul>
+               </nav>
+            </div>
+            <div class="col-sm-4 footer-social">
+                <nav>
+                    <ul>
+                        <li><a href="https://twitter.com/curator_io" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="http://www.facebook.com/curatorappio" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="http://instagram.com/curator_io" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-4 footer-nav">
+                <nav>
+                    <ul>
+                        <li><a href="<?php echo MAIN_URL ?>/privacy">Privacy Policy</a></li>
+                        <li><a href="<?php echo MAIN_URL ?>/terms">Terms</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 footer-copy">
+                    <span class="copy">© 2016 <a href="http://sandboxdigital.com.au" target="_blank">Sandbox Digital</a></span></li>
+            </div>
+        </div>
+    </footer>
+</div>
 </body>
 </html>

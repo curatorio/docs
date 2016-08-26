@@ -1,0 +1,16 @@
+$desktop 		: "only screen and (max-width : 1065px)";
+
+//Bootstrap 3 Media Queries 
+$wide 			: "only screen and (max-width : 1200px)";
+$desktop-small	: "only screen and (max-width : 1065px)";
+$ipadl			: "only screen and (max-width : 1024px)";
+$ipadl-lt	    : "only screen and (max-width : 1023px)";
+//$desktop 		: "only screen and (max-width : 992px)";
+$tablet 		: "only screen and (max-width : 768px)";
+$tablet-landscape 		: "only screen and (max-width : 1024px) and (max-height:768px)";
+$mobile 		: "only screen and (max-width : 480px)";
+$iPhone6pl 	    : "only screen and (max-width : 737px)";
+$iPhone6p 	    : "only screen and (max-width : 414px)";
+$iPhone6l		: "only screen and (max-width : 667px)";
+$iPhone6 	    : "only screen and (max-width : 375px)";
+$iPhone-retina 	: "only screen and (max-width : 320px)";

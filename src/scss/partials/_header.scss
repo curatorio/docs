@@ -1,0 +1,97 @@
+.Navbar{
+	background-color: $grey;
+
+	.Navbar__brand{
+		@extend .font-alpha;
+		font-size: 27px;
+		line-height: 20px;
+	    font-weight: 400;
+	    -webkit-font-smoothing: antialiased;
+	    text-transform: lowercase;
+	    color: white;
+
+	    &:hover{
+	    	text-decoration: none;
+	    }
+	}
+	.navbar-collapse{
+		float: right;
+
+		.navbar-nav {
+	        padding: 0;
+
+	        #menu-primary-navigation{
+	        	float: left;
+	        }
+
+	        li {
+	        	list-style: none;
+	        	display: inline-block;
+	        	padding: 0 10px;
+
+	            > a {
+	            	@extend .font-alpha;
+	                padding: 17px 0 0 0;
+	                background: none;
+	                -webkit-transition: all 0.4s ease-in-out;
+	                transition: all 0.4s ease-in-out;
+	                text-transform: uppercase;
+	                font-weight: bold;
+	                font-size: 13px;
+	                border-bottom: 1px solid transparent;
+	                color: white;
+
+	                &.btn-default{
+	                	background-color: $violet;
+					    border: 1px solid $violet;
+					    margin-left: 5px;
+    					padding: 8px 12px;
+    					border-radius: 3px;
+
+    					&:hover{
+    						border: 1px solid $violet;
+    					}
+	                }
+	                &:hover {
+                        opacity: 1;
+                        border-bottom: 1px solid;
+                        //color: #7266BD;
+                    }
+	            }
+	            &.active > a {
+	                background: none;
+
+	                &:hover {
+	                    background: none;
+	                }
+	            }
+
+	        }
+	    }
+	}
+	@media #{$wide}{
+		overflow: hidden;
+    	height: auto;
+
+    	.Navbar__brand{
+		    padding-left: 0;
+			margin-left: -15px;
+		}
+    	.container{
+    		max-width: 100%;
+    		padding-left: 15px;
+    		padding-right: 15px;
+    	}
+    	.navbar-collapse{
+    		.navbar-nav{
+    			#menu-primary-navigation{
+    				margin: 0 0 15px;
+    				overflow: hidden;
+    			}
+    		}
+    	}
+	}
+	@media #{$ipadl}{
+		
+	}
+}

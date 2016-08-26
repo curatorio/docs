@@ -2,7 +2,13 @@
     "favicon": "<theme_url>img/favicon.png",
     "fonts": ["https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700&subset=latin,cyrillic-ext,cyrillic"],
     "js": [],
-    "css": ["<theme_url>css/theme-navy.min.css"],
+    "css": [
+        "<theme_url>css/theme-navy.min.css",
+        "https://fonts.googleapis.com/css?family=Open+Sans",
+        "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css",
+        "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css",
+        "<theme_url>css/main.css"
+    ],
     "variants": {
         "blue": {
             "favicon": "<theme_url>img/favicon-blue.png",

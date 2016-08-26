@@ -3,6 +3,8 @@
     <div class="container">
         <?php $this->insert('theme::partials/navbar_content', ['params' => $params]); ?>
     </div>
+
+    
 </div>
 
 <?php if ($params['html']['repo']) {

@@ -1,0 +1,125 @@
+.font-alpha, .Navbar .Navbar__brand, .Navbar .navbar-collapse .navbar-nav li > a, .footer-container a, body {
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
+
+.Navbar {
+  background-color: #464646; }
+  .Navbar .Navbar__brand {
+    font-size: 27px;
+    line-height: 20px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-transform: lowercase;
+    color: white; }
+    .Navbar .Navbar__brand:hover {
+      text-decoration: none; }
+  .Navbar .navbar-collapse {
+    float: right; }
+    .Navbar .navbar-collapse .navbar-nav {
+      padding: 0; }
+      .Navbar .navbar-collapse .navbar-nav #menu-primary-navigation {
+        float: left; }
+      .Navbar .navbar-collapse .navbar-nav li {
+        list-style: none;
+        display: inline-block;
+        padding: 0 10px; }
+        .Navbar .navbar-collapse .navbar-nav li > a {
+          padding: 17px 0 0 0;
+          background: none;
+          -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
+          text-transform: uppercase;
+          font-weight: bold;
+          font-size: 13px;
+          border-bottom: 1px solid transparent;
+          color: white; }
+          .Navbar .navbar-collapse .navbar-nav li > a.btn-default {
+            background-color: #7266BD;
+            border: 1px solid #7266BD;
+            margin-left: 5px;
+            padding: 8px 12px;
+            border-radius: 3px; }
+            .Navbar .navbar-collapse .navbar-nav li > a.btn-default:hover {
+              border: 1px solid #7266BD; }
+          .Navbar .navbar-collapse .navbar-nav li > a:hover {
+            opacity: 1;
+            border-bottom: 1px solid; }
+        .Navbar .navbar-collapse .navbar-nav li.active > a {
+          background: none; }
+          .Navbar .navbar-collapse .navbar-nav li.active > a:hover {
+            background: none; }
+  @media only screen and (max-width: 1200px) {
+    .Navbar {
+      overflow: hidden;
+      height: auto; }
+      .Navbar .Navbar__brand {
+        padding-left: 0;
+        margin-left: -15px; }
+      .Navbar .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px; }
+      .Navbar .navbar-collapse .navbar-nav #menu-primary-navigation {
+        margin: 0 0 15px;
+        overflow: hidden; } }
+
+.footer-spacer {
+  height: 120px;
+  position: relative; }
+
+.footer-container {
+  height: 120px;
+  padding-top: 30px;
+  position: fixed;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #464646;
+  color: white; }
+  .footer-container .privacy {
+    position: absolute;
+    top: 0px;
+    color: #efefef; }
+  .footer-container .privacy {
+    right: 0px; }
+  .footer-container a {
+    color: #efefef; }
+  .footer-container footer {
+    position: relative;
+    z-index: 1;
+    text-align: center; }
+    .footer-container footer nav {
+      display: inline-block;
+      margin: 0 0 15px 0; }
+      .footer-container footer nav ul {
+        padding: 0; }
+        .footer-container footer nav ul li {
+          list-style: none;
+          display: inline-block;
+          margin: 0 5px; }
+    .footer-container footer .footer-nav nav {
+      margin: 0; }
+    .footer-container footer .footer-copy {
+      text-align: center;
+      color: #efefef; }
+    .footer-container footer .footer-social ul {
+      margin-bottom: 0; }
+    .footer-container footer .footer-social a {
+      display: block;
+      margin: 0 5px; }
+      .footer-container footer .footer-social a i {
+        font-size: 1.2em; }
+
+@media all and (max-width: 560px) {
+  .footer-spacer {
+    display: none; }
+  .footer-container {
+    position: relative;
+    height: auto; }
+    .footer-container .copy {
+      position: relative; } }
+
+body {
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased !important;
+  font-size: 16px; }
