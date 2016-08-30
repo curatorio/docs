@@ -15,11 +15,9 @@
 		<li class="menu-features"><a href="<?php echo MAIN_URL ?>/about/">Features</a></li>
 		<li class="menu-examples"><a href="<?php echo MAIN_URL ?>/showcase/">Examples</a></li>
 		<li class="menu-pricing"><a href="<?php echo MAIN_URL ?>/pricing/">Pricing</a></li>
-		<li class="menu-github"><a href="https://github.com/curatorio">Github</a></li>
-		<li class="menu-clients"><a href="<?php echo MAIN_URL ?>/clients/">Clients</a></li>
-		<li class="menu-test-text-template"><a href="<?php echo MAIN_URL ?>/test-text-template/">Test – text template</a></li>
-		</ul>                    
-		<li class="request-demo"><a href="#" class="btn btn-default navbar-btn">Request Demo</a></li>
-        <li><a href="http://admin.curator.io/auth/register" class="btn btn-default navbar-btn">Try for free</a></li>
+		<li class="menu-github"><a href="<?php echo MAIN_URL ?>/docs/" class="active">Docs</a></li>
+		</ul>
+		<li class="request-demo nav-btn"><a href="http://admin.curator.io/auth/login" class="btn btn-default navbar-btn">Request Demo</a></li>
+        <li class="nav-btn"><a href="http://admin.curator.io/auth/register" class="btn btn-default navbar-btn">Try for free</a></li>
     </ul>
 </div><!-- /.navbar-collapse -->

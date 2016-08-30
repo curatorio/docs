@@ -1,15 +1,50 @@
-.font-alpha, .Navbar .Navbar__brand, .Navbar .navbar-collapse .navbar-nav li > a, .footer-container a, body {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
+/*.font-alpha, .Navbar .Navbar__brand, .Navbar .navbar-collapse .navbar-nav li > a, .footer-container a, body {
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }*/
 
 .Navbar {
-  background-color: #464646; }
+    height: 55px;
+  background-color: #fff; }
+  .Nav .Nav .Nav__item a{
+      font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    background: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    border-bottom: 1px solid transparent;
+    color: #13132a;
+  }
+  .Columns__right--float .Columns__right__content{
+      background-color: #f5f5f6 !important;
+
+  }
+  .Columns__right--float .s-content pre{
+      border-left: none;
+  }
+  .Columns__right--float .Columns__right__content article{
+      padding-bottom: 65px;
+  }
+  .Nav .Nav .Nav__item a:hover{
+      text-decoration: none;
+  }
+.Columns__right{
+    padding-top:10px;
+}
+.Pager li>a{
+    border-radius: 3px;
+    color: #464646;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
   .Navbar .Navbar__brand {
     font-size: 27px;
     line-height: 20px;
     font-weight: 400;
     -webkit-font-smoothing: antialiased;
     text-transform: lowercase;
-    color: white; }
+    color: #13132a; }
     .Navbar .Navbar__brand:hover {
       text-decoration: none; }
   .Navbar .navbar-collapse {
@@ -31,16 +66,20 @@
           font-weight: bold;
           font-size: 13px;
           border-bottom: 1px solid transparent;
-          color: white; }
+          color: #13132a;
+      }
           .Navbar .navbar-collapse .navbar-nav li > a.btn-default {
             background-color: #7266BD;
             border: 1px solid #7266BD;
             margin-left: 5px;
             padding: 8px 12px;
-            border-radius: 3px; }
-            .Navbar .navbar-collapse .navbar-nav li > a.btn-default:hover {
-              border: 1px solid #7266BD; }
-          .Navbar .navbar-collapse .navbar-nav li > a:hover {
+            border-radius: 3px;
+            color: #fff;
+        }
+            .Navbar .navbar-collapse .navbar-nav li > a.btn-default:hover, .Navbar .navbar-collapse .navbar-nav li > a.btn-default.active {
+              border: 1px solid #7266BD;
+          }
+          .Navbar .navbar-collapse .navbar-nav li > a:hover, .Navbar .navbar-collapse .navbar-nav li > a.active {
             opacity: 1;
             border-bottom: 1px solid; }
         .Navbar .navbar-collapse .navbar-nav li.active > a {

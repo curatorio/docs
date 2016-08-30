@@ -1,14 +1,14 @@
 {
-	"title": "Curator.io",
-	"tagline": "Easy Social Media Aggregation",
-	"breadcrumbs": true,
-	"breadcrumb_separator" : " > ",
-	"html": {
-		"toggle_code": true,
-		"float": true,
-		"theme":"curator"
-	},
-	"live": {
-		"clean_urls": true
-	}
+    "title": "Curator.io/docs",
+    "tagline": "Easy Social Media Aggregation",
+    "breadcrumbs": true,
+    "breadcrumb_separator": " > ",
+    "html": {
+        "toggle_code": true,
+        "float": true,
+        "theme": "curator"
+    },
+    "live": {
+        "clean_urls": true
+    }
 }
