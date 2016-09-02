@@ -17,7 +17,7 @@
 		<li class="menu-pricing"><a href="<?php echo MAIN_URL ?>/pricing/">Pricing</a></li>
 		<li class="menu-github"><a href="<?php echo MAIN_URL ?>/docs/" class="active">Docs</a></li>
 		</ul>
-		<li class="request-demo nav-btn"><a href="http://admin.curator.io/auth/login" class="btn btn-default navbar-btn">Request Demo</a></li>
+		<li class="request-demo nav-btn"><a href="http://admin.curator.io/auth/login" class="btn btn-default navbar-btn">Login</a></li>
         <li class="nav-btn"><a href="http://admin.curator.io/auth/register" class="btn btn-default navbar-btn">Try for free</a></li>
     </ul>
 </div><!-- /.navbar-collapse -->
