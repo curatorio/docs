@@ -5,6 +5,8 @@
 }
 
 .footer-container {
+    overflow: hidden;
+
     height: 120px;
     padding-top: 30px;
     position: fixed;
@@ -12,13 +14,13 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: $grey;
-    color: white;
+    background-color: #ffffff;
+    color: #464646;
 
     .privacy  {
         position: absolute;
         top:0px;
-        color: #efefef;
+        color: #464646;
 
     }
 
@@ -29,7 +31,7 @@
 
     a {
         @extend .font-alpha;
-        color: #efefef;
+        color: #464646;
     }
 
     footer {
@@ -59,7 +61,7 @@
 
         .footer-copy {
             text-align: center;
-            color: #efefef;
+            color: #464646;
         }
 
         .footer-social {

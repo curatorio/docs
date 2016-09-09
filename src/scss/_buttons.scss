@@ -1,0 +1,28 @@
+.btn {
+    font-size: 16px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #7266BD;
+    border-color: #7266BD;
+
+    transition: opacity 0.3s linear;
+
+    &:focus,
+    &:active,
+    &:hover {
+        background-color: #7266BD;
+        border-color: #7266BD;
+        opacity: 0.9;
+    }
+}
+
+.btn-bold {
+    transition: all 0.4s ease-in-out;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+}

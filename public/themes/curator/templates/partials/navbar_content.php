@@ -1,4 +1,4 @@
-<a class="Navbar__brand" href="<?= $params['base_page'] . $params['index']->getUri(); ?>"><?= $params['title']; ?></a>
+<a class="Navbar__brand" href="<?php echo MAIN_URL ?>/docs/"><?= $params['title']; ?></a>
 
 <?php if ($params['html']['search']) {
     ?>
@@ -11,11 +11,13 @@
 
 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="nav navbar-nav navbar-right">
-      	<ul id="menu-primary-navigation" class="nav navbar-nav"><li class="active menu-home"><a href="<?php echo MAIN_URL ?>/">Home</a></li>
-		<li class="menu-features"><a href="<?php echo MAIN_URL ?>/about/">Features</a></li>
-		<li class="menu-examples"><a href="<?php echo MAIN_URL ?>/showcase/">Examples</a></li>
-		<li class="menu-pricing"><a href="<?php echo MAIN_URL ?>/pricing/">Pricing</a></li>
-		<li class="menu-github"><a href="<?php echo MAIN_URL ?>/docs/" class="active">Docs</a></li>
+      	<ul id="menu-primary-navigation" class="nav navbar-nav">
+            <li class="menu-home"><a href="<?php echo MAIN_URL ?>/">Home</a></li>
+            <li class="menu-features"><a href="<?php echo MAIN_URL ?>/about/">About</a></li>
+            <li class="menu-pricing"><a href="<?php echo MAIN_URL ?>/pricing/">Pricing</a></li>
+            <li class="menu-examples"><a href="<?php echo MAIN_URL ?>/showcase/">Examples</a></li>
+            <li class="menu-examples"><a href="<?php echo MAIN_URL ?>/clients/">Show Case</a></li>
+            <li class="menu-github active"><a href="<?php echo MAIN_URL ?>/docs/" class="active">Docs</a></li>
 		</ul>
 		<li class="request-demo nav-btn"><a href="http://admin.curator.io/auth/login" class="btn btn-default navbar-btn">Login</a></li>
         <li class="nav-btn"><a href="http://admin.curator.io/auth/register" class="btn btn-default navbar-btn">Try for free</a></li>

@@ -22,7 +22,7 @@
 
     <?php if (!empty($page['prev']) || !empty($page['next'])) {
     ?>
-    <nav>
+    <nav class="Pager-nav">
         <ul class="Pager">
             <?php if (!empty($page['prev'])) {
         ?><li class=Pager--prev><a href="<?= $base_url . $page['prev']->getUrl() ?>">Previous</a></li><?php

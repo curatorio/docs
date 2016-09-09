@@ -1,10 +1,6 @@
 <?php $this->layout('theme::layout/00_layout') ?>
 <div class="Navbar hidden-print">
-    <div class="container">
-        <?php $this->insert('theme::partials/navbar_content', ['params' => $params]); ?>
-    </div>
-
-    
+    <?php $this->insert('theme::partials/navbar_content', ['params' => $params]); ?>
 </div>
 
 <?php if ($params['html']['repo']) {
@@ -14,39 +10,42 @@
 
 } ?>
 
-<div class="Homepage">
-    <div class="HomepageTitle container">
-        <?php if ($params['tagline']) {
-    echo '<h2>' . $params['tagline'] . '</h2>';
-} ?>
-    </div>
-
-    <div class="HomepageImage container">
-        <?php if ($params['image']) {
-    echo '<img class="homepage-image img-responsive" src="' . $params['image'] . '" alt="' . $params['title'] . '">';
-} ?>
-    </div>
-
-    <div class="HomepageButtons">
-        <div class="container">
-            <?php
-            if ($params['html']['repo']) {
-                echo '<a href="https://github.com/' . $params['html']['repo'] . '" class="Button Button--secondary Button--hero">View On GitHub</a>';
-            }
-            foreach ($page['entry_page'] as $key => $node) {
-                echo '<a href="' . $node . '" class="Button Button--primary Button--hero">' . $key . '</a>';
-            }
-            ?>
-            <div class="clearfix"></div>
-        </div>
-    </div>
-</div>
-
 <div class="HomepageContent">
     <div class="container">
         <div class="container--inner">
             <div class="doc_content s-content">
-                <?= $page['content']; ?>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-center">Curator Documentation</h1>
+                        <p class="text-center">Widget guides, API integration and support documentation for Curator.io</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 text-center1 home-item">
+                        <h3>Widgets</h3>
+                        <div>
+                            <p>Documentation covering the various Curator.io widgets. </p>
+                        </div>
+                        <p><a href="./widgets/index" class="btn btn-primary btn-bold">View docs</a></p>
+                    </div>
+                    <div class="col-md-4 text-center1 home-item">
+                        <h3>API</h3>
+                        <div>
+                            <p>Details on how to access the Curator.io REST API. Including read & write access to feeds and sources.</p>
+                        </div>
+                        <p><a href="./api/getting-started/index" class="btn btn-primary btn-bold">View docs</a></p>
+
+                    </div>
+                    <div class="col-md-4 text-center1  home-item">
+                        <h3>Help</h3>
+                        <div>
+                            <p>General help on the Curator.io platform.</p>
+                        </div>
+                        <p><i>Coming very soon</i></p>
+<!--                        <p class=""><a href="/help/getting-started/index" class="btn btn-primary btn-bold">View docs</a></p>-->
+                    </div>
+                </div>
             </div>
         </div>
     </div>
