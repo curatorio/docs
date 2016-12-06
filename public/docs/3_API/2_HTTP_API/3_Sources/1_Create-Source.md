@@ -13,8 +13,8 @@ The example below creates a source that pulls in Instagram posts with the hashta
 POST /v1/sources
 
 {
-    "feed_id": "660b923a-a6e7-4540-bd03-7e08fd006e0d"
-    "source_id":2,
+    "feed_id": "660b923a-a6e7-4540-bd03-7e08fd006e0d",
+    "source_type":2,
     "tag":"nofilter"
 }
 ```
@@ -34,11 +34,13 @@ POST /v1/sources
 
 
 **Params**  
-| Param        | Description     | Required     |
-| ------------- |-------------    |-------------|
-| feed_id      | Feed to assign source to    | Yes |
-| source_id     | Source Type to to pull posts from. See Source Types below | Yes |
-| tag     | Value to query source    | Yes |
+
+
+| Param_type     | Description                       |  Required    |
+| -------------  |-------------                      | -------     |
+| feed_id        | Feed to assign source to          | Yes     |
+| source_type    | Source Type to to pull posts from. See Source Types below | Yes |
+| tag            | Value to query source             | Yes |
 
 -----
 
