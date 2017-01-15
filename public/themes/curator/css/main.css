@@ -57,9 +57,6 @@
     .Navbar {
       overflow: hidden;
       height: auto; }
-      .Navbar .Navbar__brand {
-        padding-left: 0;
-        margin-left: -15px; }
       .Navbar .container {
         max-width: 100%;
         padding-left: 15px;
