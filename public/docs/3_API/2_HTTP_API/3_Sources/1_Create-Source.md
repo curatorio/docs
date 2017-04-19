@@ -14,8 +14,8 @@ POST /v1/sources
 
 {
     "feed_id": "660b923a-a6e7-4540-bd03-7e08fd006e0d",
-    "source_type":2,
-    "tag":"nofilter"
+    "source_type": 2,
+    "tag": "myawesometag"
 }
 ```
 
@@ -25,7 +25,7 @@ POST /v1/sources
 {
     "id": "b37d3706-7fbd-4af9-a989-e8d20a50e04e",
     "source_type": 2,
-    "tag": "nofilter",
+    "tag": "myawesometag",
     "status": 1,
     "feed_id": "660b923a-a6e7-4540-bd03-7e08fd006e0d"
 }
