@@ -31,7 +31,7 @@ https://github.com/justinwalsh/daux.io/issues
 Bugs
 ----
 
-To file bug reports please create an issue using the github issue tracker:
+To file bug reports please create an issue using the GitHub issue tracker:
 
 https://github.com/justinwalsh/daux.io/issues
 

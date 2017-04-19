@@ -3,7 +3,7 @@
 // Configuration - you can change these settings
 
 // Destination - where all the files are save after processing. Defaults to /public/assets but you can change to
-// something like public/wp-content/themes/THEME_NAME/assets for a Wordpress project
+// something like public/wp-content/themes/THEME_NAME/assets for a WordPress project
 
 var dest        = "../public/themes/curator/";
 var destCss     = dest+"css/";
@@ -81,7 +81,7 @@ gulp.task('images', function() {
 });
 
 // -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-// Javascript
+// JavaScript
 
 gulp.task('scripts', function() {
     return gulp.src(srcJs+'**/*.js')
@@ -93,7 +93,7 @@ gulp.task('scripts', function() {
 });
 
 // 'frontend/bower_components/bootstrap-daterangepicker/daterangepicker.js',
-// 'frontend/bower_components/ng-bs-daterangepicker/dist/ng-bs-daterangepicker.min.js',  
+// 'frontend/bower_components/ng-bs-daterangepicker/dist/ng-bs-daterangepicker.min.js',
 
 gulp.task('scripts-vendor', function() {
     return gulp.src([
