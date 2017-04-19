@@ -52,6 +52,6 @@ FEED_ID can be found in the [Curator Admin](https://admin.curator.io)
 
 ### jQuery / Zepto
 
-Curator comes in too flavours: 
-- curator.nodep.js - a stand alone widget which is not dependant on any libraries (it has Zepto pre-packaged in the js file)
+Curator comes in two flavours: 
+- curator.nodep.js - a stand alone widget which is not dependent on any libraries (it has Zepto pre-packaged in the js file)
 - curator.js - which requires either jQuery (1.7 +) or Zepto included before the curator.js `<script>` tag

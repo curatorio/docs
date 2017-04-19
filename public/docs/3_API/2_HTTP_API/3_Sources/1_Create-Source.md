@@ -57,20 +57,20 @@ POST /v1/sources
 | 7             | Pinterest user  | username    |
 | 8             | Google+ tag     | username    |
 | 9             | Flickr tag      | hashtag     |
-| 10            | Youtube tag     | hashtag     |
+| 10            | YouTube tag     | hashtag     |
 | 11            | Tumblr tag      | hashtag     |
 | 12            | Google+ user    | username    |
-| 13            | Youtube channel | username/channel id |
+| 13            | YouTube channel | username/channel id |
 | 14            | Tumblr user     | username    |
 | 15            | Flickr user     | username    |
-| 16            | Rss             | url         |
+| 16            | RSS             | url         |
 | 17            | LinkedIn user   | username    |
 | 18            | LinkedIn page   | company id  |
 | 19            | Vine user       |  username   |
 | 20            | Twitter user mention   |  username |
-| 21            | Twitter geo-location   | lat,long,distance |
-| 22            | Instagram geo-location |  lat,long,distance |
-| 23            | Instrgram location     | Facebook Place ID
+| 21            | Twitter geolocation   | lat,long,distance |
+| 22            | Instagram geolocation |  lat,long,distance |
+| 23            | Instagram location     | Facebook Place ID
 | 24            | Facebook visitor posts   |  url part    |
 
 
@@ -91,11 +91,11 @@ POST /v1/sources
 
 **1 - Twitter Tag**  - pulls Twitter posts based on a hashtag. `tag` should be Twitter hashtag without the `#` .
 
-**2 - Instagram Tag**  - pulls Instgram posts based on a hashtag. `tag` should be Instgram hashtag without the `#`.
+**2 - Instagram Tag**  - pulls Instagram posts based on a hashtag. `tag` should be Instagram hashtag without the `#`.
  
 **3 - Twitter user**  - pulls Twitter posts from a users public timeline. `tag` should be the Twitter username without the `@`.
  
-**4 - Instagram user**  - pulls Instgram posts from a users public timeline. `tag` should be the Instgram username without the `@`.
+**4 - Instagram user**  - pulls Instagram posts from a users public timeline. `tag` should be the Instagram username without the `@`.
  
 **5 - Facebook page**  - pulls posts from a Facebook page. `tag` should be the last part of the Facebook page's url.
 
@@ -107,19 +107,19 @@ POST /v1/sources
 
 **9 - Flickr Tag**  - pulls Flickr+ posts based on a hashtag. `tag` should be Flickr hashtag without the `#`.
 
-**10 - Youtube tag**  - pulls Youtube posts based on a hashtag. `tag` should be Youtube hashtag without the `#`.
+**10 - YouTube tag**  - pulls YouTube posts based on a hashtag. `tag` should be YouTube hashtag without the `#`.
 
 **11- Tumblr tag**   - pulls Tumblr posts based on a hashtag. `tag` should be Google+ Tumblr without the `#`.
 
 **12 - Google+ user**  - pulls Google+ posts from a users public timeline. `tag` should be the Google+ username without the `@`.
 
-**13 - Youtube channel** - pulls Youtube posts from a users channel. `tag` should be the channel identifier (either a username or channel id).
+**13 - YouTube channel** - pulls YouTube posts from a users channel. `tag` should be the channel identifier (either a username or channel id).
 
 **14 - Tumblr user**- pulls Tumblr posts from a users public timeline. `tag` should be the Tumblr username without the `@`.   
 
 **15 - Flickr user**  - pulls Flickr posts from a users public timeline. `tag` should be the Flickr username without the `@`. 
 
-**16 - Rss** - pulls posts from a public RSS feed. `tag` should be the full URL to the feed.          
+**16 - RSS** - pulls posts from a public RSS feed. `tag` should be the full URL to the feed.          
 
 **17 - LinkedIn user**  - pulls LinkedIn posts from a users public timeline. `tag` should be the LinkedIn username without the `@`. 
 
@@ -129,11 +129,11 @@ POST /v1/sources
 
 **20 - Twitter user mention** - pulls Twitter posts that mention a specific username. `tag` should be the Twitter username without the `@`.  
 
-**21 - Twitter geo-location** - pulls Twitter posts around a specific location. `tag` is a location in the format latitude, longitude and radial distance (in miles)  
+**21 - Twitter geolocation** - pulls Twitter posts around a specific location. `tag` is a location in the format latitude, longitude and radial distance (in miles)  
 
-**22 - Instagram geo-location** - pulls Instgram posts around a specific location. `tag` is a location in the format latitude, longitude and radial distance (in miles)   
+**22 - Instagram geolocation** - pulls Instagram posts around a specific location. `tag` is a location in the format latitude, longitude and radial distance (in miles)   
 
-**23 - Instrgram location**  - pulls Instgram posts around a specific location. `tag` is a Facebook Place ID that identifies the location tag      
+**23 - Instagram location**  - pulls Instagram posts around a specific location. `tag` is a Facebook Place ID that identifies the location tag      
 
 **24 - Facebook visitor posts**  - pulls visitor posts from a Facebook page. `tag` should be the last part of the Facebook page's url.  
 

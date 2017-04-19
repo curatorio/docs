@@ -1,5 +1,5 @@
 
-Sources define what Posts should be pulled into a particular Feed. A Source is made up of a `source_type` (eg Instagram Tag) and a value (called `tag`) that's used to query the source type. 
+Sources define what Posts should be pulled into a particular Feed. A Source is made up of a `source_type` (e.g. Instagram Tag) and a value (called `tag`) that's used to query the source type. 
 
 **Source Types**  
 | source_type   | Description     |
@@ -13,12 +13,12 @@ Sources define what Posts should be pulled into a particular Feed. A Source is m
 | 7             | Pinterest user  |
 | 8             | Google+ tag     |
 | 9             | Flickr tag      |
-| 10            | Youtube tag     |
+| 10            | YouTube tag     |
 | 11            | Tumblr tag      |
 | 12            | Google+ user    |
-| 13            | Youtube channel |
+| 13            | YouTube channel |
 | 14            | Tumblr user     |
 | 15            | Flickr user     |
-| 16            | Rss             |
+| 16            | RSS             |
 | 17            | LinkedIn User   |
 | 18            | LinkedIn Page   |
