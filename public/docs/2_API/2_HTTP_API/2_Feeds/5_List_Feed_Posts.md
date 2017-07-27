@@ -55,6 +55,14 @@ GET /v1/feeds/FEED_ID/posts
 |----|----|
 | limit      | Limits the number of posts returned - defaults to 25, max is 100     |
 | offset      | Page offset - used to paginate through the results     |
-| network_id      | Filter by specific Network ID     |
-| source_type      | Filter by specific Source Type ID     |
-| status      | Filter by specific Post status     |
+
+**Premium Params**
+
+| Param        | Description     |
+|----|----|
+| network_id      | Filter by a specific [Network ID](../5_Network_IDs)     |
+| source_type      | Filter by a specific [Source Type ID](../6_Source_Type_IDs)    |
+| status      | Filter by specific Post status - 1=all active posts, 0=all disabled posts, all = all posts   |
+
+
+
